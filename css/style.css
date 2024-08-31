@@ -1,0 +1,27 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+/* nav bar start */
+.nav_item_btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-right: 24px;
+    padding: 8px 16px !important;
+    background-color: transparent;
+    border-radius: 30px;
+    outline: 2px solid #FFFFFF;
+}
+.nav_item_btn:hover{
+    color: #047857;
+    background-color: #D1FAE5;
+}
+.nav_item_btn_big{
+    margin-left: 32px;
+    padding: 12px 24px !important;
+}
+/* nav bar end */
