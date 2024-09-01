@@ -6,6 +6,27 @@
         margin: 10px !important;
     }
 
+     /* banner start */
+     .red_angle {
+        width: 35px;
+        height: 50px;
+        left: 33px;
+        top: 58px;
+    }
+    .yellow_angle {
+        width: 30px;
+        height: 45px;
+        right: 50px;
+        top: 90px;
+    }
+    .blue_angle {
+        width: 25px;
+        height: 40px;
+        right: 45px;
+        bottom: 89px;
+    }
+    /* banner end */
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -14,6 +35,27 @@
         display: inline-block;
         margin: 12px !important;
     }
+
+    /* banner start */
+    .red_angle {
+        width: 55px;
+        height: 80px;
+        left: 58px;
+        top: 98px;
+    }
+    .yellow_angle {
+        width: 30px;
+        height: 65px;
+        right: 89px;
+        top: 152px;
+    }
+    .blue_angle {
+        width: 30px;
+        height: 55px;
+        right: 77px;
+        bottom: 170px;
+    }
+    /* banner end */
 
  }
 
@@ -24,11 +66,47 @@
         margin: 16px !important;
     }
 
+    /* banner start */
+    .red_angle {
+        width: 65px;
+        height: 100px;
+        left: 80px;
+        top: 133px;
+    }
+    .yellow_angle {
+        right: 119px;
+        top: 203px;
+    }
+    .blue_angle {
+        right: 106px;
+        bottom: 229px;
+    }
+    /* banner end */
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
+    /* banner start */
+    .red_angle {
+        width: 55px;
+        height: 70px;
+        left: 52px;
+        top: 88px;
+    }
+    .yellow_angle {
+        width: 30px;
+        height: 65px;
+        right: 78px;
+        top: 134px;
+    }
+    .blue_angle {
+        width: 30px;
+        height: 55px;
+        right: 70px;
+        bottom: 144px;
+    }
+    /* banner end */
 
 }
 
