@@ -4,6 +4,7 @@
 body{
     font-family: "Lexend", sans-serif;
     font-weight: 400;
+    font-size: 16px;
 }
 
 /* nav bar start */
@@ -40,6 +41,7 @@ body{
     position: absolute;
     left: 71px;
     top: 122px;
+   
 
 }
 .yellow_angle{
@@ -52,6 +54,7 @@ body{
     position: absolute;
     right: 109px;
     top: 182px;
+    
 
 }
 .blue_angle{
@@ -64,6 +67,42 @@ body{
     position: absolute;
     right: 100px;
     bottom: 200px;
+   
 
+}
+
+.banner_slider{
+    position: absolute;
+    left: 64px;
+    bottom: 35px;
+    width: 90%;
+    
+    
+}
+.banner_slider_content_big{
+    
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 24px;
+    
+}
+.banner_slider_content_small{
+
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 24px;
+    
+}
+.banner_slider_text h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1B1C57;
+}
+.banner_slider_text p{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #68799F;
 }
 /* banner end */
