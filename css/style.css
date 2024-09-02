@@ -8,14 +8,19 @@ body{
 }
 
 /* nav bar start */
+.navbar_container{
+    padding: 20px 0;
+}
+
 .nav_item_btn{
     color: #FFFFFF;
     font-weight: 600;
-    margin-right: 24px;
-    padding: 8px 16px !important;
+    margin-right: 20px;
+    padding: 5px 10px !important;
     background-color: transparent;
     border-radius: 30px;
     outline: 2px solid #FFFFFF;
+    z-index: 1;
 }
 .nav_item_btn:hover{
     color: #047857;
@@ -23,13 +28,17 @@ body{
 }
 .nav_item_btn_big{
     margin-left: 32px;
-    padding: 12px 24px !important;
+    padding: 10px 15px !important;
 }
 /* nav bar end */
 
 /* banner start */
+.banner_container{
+    margin-top: -102px;
+    z-index: 1;
+}
 .banner_img{
-    
+    z-index: -1;
 }
 .red_angle{
     width: 65px;
@@ -41,8 +50,6 @@ body{
     position: absolute;
     left: 71px;
     top: 122px;
-   
-
 }
 .yellow_angle{
     width: 40px;
@@ -54,8 +61,6 @@ body{
     position: absolute;
     right: 109px;
     top: 182px;
-    
-
 }
 .blue_angle{
     width: 40px;
@@ -67,33 +72,27 @@ body{
     position: absolute;
     right: 100px;
     bottom: 200px;
-   
-
 }
 
 .banner_slider{
     position: absolute;
     left: 64px;
     bottom: 35px;
-    width: 90%;
-    
-    
+    width: 90%; 
 }
 .banner_slider_content_big{
     
     height: 100px;
     background-color: white;
     border-radius: 30px;
-    padding: 24px;
-    
+    padding: 24px;  
 }
 .banner_slider_content_small{
 
     height: 100px;
     background-color: white;
     border-radius: 30px;
-    padding: 24px;
-    
+    padding: 24px; 
 }
 .banner_slider_text h3{
     font-size: 16px;
@@ -104,5 +103,59 @@ body{
     margin-bottom: 0;
     font-size: 12px;
     color: #68799F;
+}
+.banner_text{
+    margin-top: 130px;
+}
+.banner_text_heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #1B1C57;
+    text-transform: capitalize;
+    text-shadow: 0 2px 4px #68799F;
+    padding-right: 20px;
+}
+.text_style{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1pt #1B1C57;
+}
+.banner_text_heading p{
+    margin-top: 15px;
+    font-weight: 400;
+    color: #626687;
+}
+.banner_text_form{
+    margin-top: 20px;
+}
+#search_input{
+    border-radius: 20px;
+    color: #888B97;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 93px;
+}
+
+.search_btn{
+    border-radius: 20px;
+    background-color: #10B981;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.search_location_icon{
+    width: 24px;
+    height: 24px;
+    color: #F59E0B;
+    position: absolute;
+    top:10px;
+    left: 45px;
+}
+.banner_text_partner p{
+    margin-top: 24px;
+    font-weight: 400;
+    color: #626687;
 }
 /* banner end */

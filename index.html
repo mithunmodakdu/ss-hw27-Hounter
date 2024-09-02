@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Hounter</title>
 
+    <script src="https://kit.fontawesome.com/0675d7cab4.js" crossorigin="anonymous"></script>
+
      <!-- ::::::: icon links ::::::: -->
      <link rel="stylesheet" href="css/bootstrap-icons.css">
 
@@ -27,10 +29,10 @@
   <body>
 
     <!-- navbar start -->
-     <div class="container">
+     <div class="container navbar_container">
       <div class="row">
         <div class="col-12">
-          <nav class="navbar navbar-expand-lg bg-primary">
+          <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
 
               <a class="navbar-brand" href="index.html">
@@ -75,14 +77,43 @@
     <!-- navbar end -->
 
     <!-- banner part start -->
-     <div class="container">
+     <div class="container banner_container">
       <div class="row d-lg-flex">
-        <div class="col-lg-6">
+        <div class="col-lg-5">
           <div class="banner_text">
+            <div class="banner_text_heading">
+              <h1 class="mb-0">find the place to
+                live <span class="text_style">your dreams</span>
+                easily here</h1>
+              <p class="mb-0 ">Everything you need about finding your place to live will be here, where it will be easier for you</p>
+              
+            </div>
+            <div class="banner_text_form">
+              <form class="position-relative">
+                <div>
+                  <input type="text" placeholder="Search for the location you want!" class="form-control" id="search_input">
+                </div>
+                <i class="fa-solid fa-location-dot search_location_icon"></i>
+                <button type="submit" class="btn search_btn">Search ></button>
+           
+              </form>
+            </div>
+
+            <div class="banner_text_partner">
+              <p>Our Partnership</p>
+              <div class="banner_text_partner_images d-flex gap-3">
+                <img src="images/banner_images/partner1.png" alt="">
+                <img src="images/banner_images/partner2.png" alt="">
+                <img src="images/banner_images/partner3.png" alt="">
+                <img src="images/banner_images/partner4.png" alt="">
+              </div>
+
+            </div>
 
           </div>
         </div>
-        <div class="col-lg-6 ">
+
+        <div class="col-lg-7 ">
           <div class="banner_img position-relative">
             <img src="images/banner_images/main_banner_img.jpg" class="w-100" alt="Banner image of Hounter">
            
@@ -135,6 +166,7 @@
           
 
         </div>
+
       </div>
      </div>
     <!-- banner part end -->
