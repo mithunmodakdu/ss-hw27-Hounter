@@ -1,11 +1,38 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+/* common start */
 body{
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
+
+.section_heading{
+    
+}
+.section_subtitle_line{
+    width: 32px;
+    border: 1px solid #F59E0B;
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: -35px;
+}
+.section_subtitle_text{
+    font-weight: 500;
+    color: #F59E0B;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.section_title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1B1C57;
+    margin-top: 12px;
+}
+
+/* common end */
 
 /* nav bar start */
 .navbar_container{
@@ -159,3 +186,10 @@ body{
     color: #626687;
 }
 /* banner end */
+
+/* feature start */
+.feature{
+    margin-top: 120px;
+
+}
+/* feature end */
