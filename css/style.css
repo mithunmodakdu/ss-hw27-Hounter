@@ -317,3 +317,43 @@ body{
 }
 
 /* ready part end */
+
+/* review part start */
+.review{
+    margin-top: 120px;
+    margin-bottom: 300px;
+    
+}
+.review_item_overlay{
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    left: 10%;
+    top: 65%;
+    box-shadow: 2px 2px 10px #C4C4C4;
+    padding: 32px;
+}
+.review_item_overlay_title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1B1C57;
+    margin-bottom: 0;
+}
+.review_item_overlay_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #626687;
+    margin: 16px 0 24px;
+}
+.star_color{
+    color: #F59E0B;
+}
+.ratings{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C4563;
+    margin-left: 240px;
+    margin-top: 10px;
+
+}
+/* review part end */
