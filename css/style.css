@@ -192,4 +192,54 @@ body{
     margin-top: 120px;
 
 }
+.feature_item{
+
+}
+.feature_img_container{
+
+}
+.feature_img_container img{
+
+}
+.feature_img_badge{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FEE2E2;
+    color: #EF4444;
+    padding: 8px 16px;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    
+}
+.feature_img_badge i{
+    margin-right: 8px;
+}
+.feature_text_container{
+
+}
+.feature_text_title{
+
+}
+.feature_text_price{
+
+}
+.feature_person_container{
+
+}
+.feature_person_img{
+
+}
+.feature_person_img img{
+
+}
+.feature_person_text{
+    
+}
+.feature_person_text h5{
+
+}
+.feature_person_text p{
+
+}
 /* feature end */
