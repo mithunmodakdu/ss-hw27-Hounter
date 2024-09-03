@@ -8,9 +8,15 @@ body{
     font-size: 16px;
 }
 
-.section_heading{
+.green_btn{
+    border-radius: 20px;
+    background-color: #10B981;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
     
 }
+
 .section_subtitle_line{
     width: 32px;
     border: 1px solid #F59E0B;
@@ -30,6 +36,24 @@ body{
     font-weight: 600;
     color: #1B1C57;
     margin-top: 12px;
+}
+
+
+.person_img{
+    margin-right: 15px;
+}
+
+.person_text h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E1735;
+    margin-bottom: 0;
+}
+.person_text p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #888B97;
+    margin: 5px 0 0;
 }
 
 /* common end */
@@ -163,11 +187,6 @@ body{
 }
 
 .search_btn{
-    border-radius: 20px;
-    background-color: #10B981;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
     position: absolute;
     top: 0;
     right: 0;
@@ -264,3 +283,37 @@ body{
     margin: 5px 0 0;
 }
 /* feature end */
+
+
+/* ready part start */
+.ready{
+    margin-top: 120px;
+}
+.ready_text_container{
+    margin-top: 30px;
+}
+.ready_p{
+    color: #626687;
+    margin: 16px 0;
+    padding-right: 110px;
+}
+.ready_house_detail{
+    
+}
+.ready_house_detail h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1B1C57;
+}
+.ready_house_detail ul li{
+    font-weight: 500;
+    color: #3C4563;
+}
+.ready_house_detail ul li img{
+    margin-right: 10px;
+}
+.stair{
+    margin-left: 20px;
+}
+
+/* ready part end */
