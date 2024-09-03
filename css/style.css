@@ -219,16 +219,21 @@ body{
 
 }
 .feature_text_title{
-
+    margin: 24px 0 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E1735;
 }
 .feature_text_price{
-
+    font-size: 20px;
+    font-weight: 500;
+    color: #3C4563;
 }
 .feature_person_container{
-
+    margin-top: 24px;
 }
 .feature_person_img{
-
+    margin-right: 12px;
 }
 .feature_person_img img{
 
@@ -237,9 +242,15 @@ body{
     
 }
 .feature_person_text h5{
-
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E1735;
+    margin-bottom: 0;
 }
 .feature_person_text p{
-
+    font-size: 14px;
+    font-weight: 500;
+    color: #888B97;
+    margin: 5px 0 0;
 }
 /* feature end */
