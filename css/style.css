@@ -16,6 +16,9 @@ body{
     font-weight: 600;
     
 }
+.green_btn:hover{
+    background-color: gray;
+}
 
 .section_subtitle_line{
     width: 32px;
@@ -62,6 +65,12 @@ body{
 /* common end */
 
 /* nav bar start */
+.header_blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+}
 .navbar_container{
     padding: 20px 0;
 }
@@ -90,6 +99,56 @@ body{
 .banner_container{
     margin-top: -102px;
     z-index: 1;
+}
+.banner_text{
+    margin-top: 130px;
+}
+.banner_text_heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #1B1C57;
+    text-transform: capitalize;
+    text-shadow: 0 2px 4px #68799F;
+    padding-right: 20px;
+}
+.text_style{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1pt #1B1C57;
+}
+.banner_text_heading p{
+    margin-top: 15px;
+    font-weight: 400;
+    color: #626687;
+}
+.banner_text_form{
+    margin-top: 20px;
+}
+#search_input{
+    border-radius: 20px;
+    color: #888B97;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 50px
+}
+
+.search_btn{
+    position: absolute;
+    top: 1px;
+    right: -35px;
+    padding: 9px 15px;
+}
+.search_location_icon{
+    width: 24px;
+    height: 24px;
+    color: #F59E0B;
+    position: absolute;
+    top: 14px;
+    left: 25px;
+}
+.banner_text_partner p{
+    margin-top: 24px;
+    font-weight: 400;
+    color: #626687;
 }
 .banner_img{
     z-index: -1;
@@ -158,55 +217,7 @@ body{
     font-size: 12px;
     color: #68799F;
 }
-.banner_text{
-    margin-top: 130px;
-}
-.banner_text_heading h1{
-    font-size: 40px;
-    font-weight: 600;
-    color: #1B1C57;
-    text-transform: capitalize;
-    text-shadow: 0 2px 4px #68799F;
-    padding-right: 20px;
-}
-.text_style{
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1pt #1B1C57;
-}
-.banner_text_heading p{
-    margin-top: 15px;
-    font-weight: 400;
-    color: #626687;
-}
-.banner_text_form{
-    margin-top: 20px;
-}
-#search_input{
-    border-radius: 20px;
-    color: #888B97;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 7px 93px;
-}
 
-.search_btn{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.search_location_icon{
-    width: 24px;
-    height: 24px;
-    color: #F59E0B;
-    position: absolute;
-    top:10px;
-    left: 45px;
-}
-.banner_text_partner p{
-    margin-top: 24px;
-    font-weight: 400;
-    color: #626687;
-}
 /* banner end */
 
 /* feature start */
@@ -324,8 +335,7 @@ body{
 /* review part start */
 .review{
     margin-top: 120px;
-    margin-bottom: 300px;
-    
+        
 }
 .review_item_overlay{
     width: 80%;
@@ -363,6 +373,9 @@ body{
 
 
 /* article start */
+.article{
+    margin-top: 120px;
+}
 .article_item_container{
     margin-bottom: 40px;
 }
@@ -400,6 +413,10 @@ body{
 
 
 /* subscribe start */
+.subscribe{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 .subscribe_overlay{
     width: 90%;
     height: 250px;
@@ -454,27 +471,62 @@ body{
 .subscribe_text_form{
     margin-top: 20px;
 }
+
+
 #subscribe_input{
     border-radius: 20px;
     color: #888B97;
     font-size: 14px;
     font-weight: 500;
-    padding: 7px 93px;
+    padding: 10px 60px;
 }
 
 .subscribe_btn{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 1px;
+    right: -35px;
+    padding: 9px 15px;
 }
+
 .subscribe_email_icon{
     width: 24px;
     height: 24px;
     color: #3B82F6;
     position: absolute;
-    top:10px;
-    left: 45px;
+    top:14px;
+    left: 25px;
 }
  
 
 /* subscribe end */
+
+/* footer start */
+.footer_hounter_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #626687;
+    margin: 16px 0 24px;
+}
+.footer_hounter_icon{
+    color: #626687;
+}
+.footer_link_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0E1735;
+}
+.footer_link{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888B97;
+    text-decoration: none;
+}
+
+
+/* footer start */
+
+.footer_blur{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
