@@ -37,6 +37,9 @@ body{
     color: #1B1C57;
     margin-top: 12px;
 }
+.section_title_center{
+    padding: 0 80px;
+}
 
 
 .person_img{
@@ -357,3 +360,40 @@ body{
 
 }
 /* review part end */
+
+
+/* article start */
+.article_item_container{
+    margin-bottom: 40px;
+}
+.article_text_container{
+    padding: 6px;
+}
+.article_person_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C4563;
+}
+.article_title{
+    margin: 10px 0 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1B1C57;
+}
+.article_time{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888B97;
+}
+.article_title_big{
+    margin: 10px 0 12px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1B1C57;
+}
+.article_details{
+    font-size: 14px;
+    font-weight: 400;
+    color: #626687;
+}
+/* article end */
