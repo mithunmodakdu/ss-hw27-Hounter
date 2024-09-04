@@ -397,3 +397,49 @@ body{
     color: #626687;
 }
 /* article end */
+
+
+/* subscribe start */
+
+.subscribe_images_container1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 64px;
+    top: 50px;
+}
+.subscribe_images_container2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 64px;
+    top: 50px;
+}
+
+.subscribe_img1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.subscribe_img2{
+   position: absolute;
+   top: 50px;
+   right: 0;
+   
+}  
+
+.subscribe_img3{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    
+ } 
+.subscribe_img4{
+    position: absolute;
+    top: 140px;
+    right: 0;
+    
+ } 
+ 
+
+/* subscribe end */
