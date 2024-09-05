@@ -153,6 +153,7 @@ body{
 .banner_img{
     z-index: -1;
 }
+
 .red_angle{
     width: 65px;
     height: 90px;
@@ -335,6 +336,7 @@ body{
 /* review part start */
 .review{
     margin-top: 120px;
+    margin-bottom: 120px;
         
 }
 .review_item_overlay{
