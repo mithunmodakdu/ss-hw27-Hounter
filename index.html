@@ -18,6 +18,7 @@
  
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+   
      <!-- bootstrap downloaded file links -->
      <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/style.css">
@@ -175,155 +176,475 @@
     <!-- feature part start -->
      <section class="feature">
       <div class="container">
-          <div class="section_heading">
+          <div class="section_heading mb-3">
             <div class="section_subtitle_line"></div>
             <p class="section_subtitle_text">Our Recommendation</p>
-            <h3 class="section_title">Featured House</h3>
+
+            <div class="d-lg-flex justify-content-between">
+              <div>
+                <h3 class="section_title">Featured House</h3>
+              </div>
+              <div>
+                <button type="button" class="mixit_item_btn active" data-filter=".house">House</button>
+                <button type="button" class="mixit_item_btn" data-filter=".villa">Villa</button>
+                <button type="button" class="mixit_item_btn" data-filter=".apartment">Apartment</button>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- mix it -->
+          
+
+          <div class="mixItContainer">
+            
+            <div class="mix house">
+              <div class="row">
+
+                <!-- feature item-1 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house1.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Roselands House</h5>
+                          <p class="card-text feature_text_price">$ 35.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person1.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Dianne Russell</h5>
+                            <p>Manchester, Kentucky</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                <!-- feature item-2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house2.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_blue"> <i class="fa-solid fa-home"></i> New house</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Woodlandside House</h5>
+                          <p class="card-text feature_text_price">$ 20.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person2.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Robert Fox</h5>
+                            <p>Dr. San Jose, South Dakota</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+                <!-- feature item-3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house3.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_green"> <i class="fa-solid fa-wallet"></i> Best Deals</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">The Old Lighthouse</h5>
+                          <p class="card-text feature_text_price">$ 44.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person3.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Ronald Richards</h5>
+                            <p>Santa Ana, Illinois</p>
+                          </div>
+                        </div>                      
+                      </div>                  
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- feature item-4 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house4.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Cosmo's House</h5>
+                          <p class="card-text feature_text_price">$ 22.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person4.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Jenny Wilson</h5>
+                            <p>Preston Rd. Inglewood, Maine 98380</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+              
+            </div>
+
+            <!-- villa -->
+            <div class="mix villa">
+              <div class="row">
+
+                <!-- feature item-1 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house1.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Roselands Villa</h5>
+                          <p class="card-text feature_text_price">$ 35.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person1.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Dianne Russell</h5>
+                            <p>Manchester, Kentucky</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                <!-- feature item-2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house2.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_blue"> <i class="fa-solid fa-home"></i> New Villa</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Woodlandside Villa</h5>
+                          <p class="card-text feature_text_price">$ 20.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person2.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Robert Fox</h5>
+                            <p>Dr. San Jose, South Dakota</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+                <!-- feature item-3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house3.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_green"> <i class="fa-solid fa-wallet"></i> Best Deals</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">The Old Villa</h5>
+                          <p class="card-text feature_text_price">$ 44.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person3.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Ronald Richards</h5>
+                            <p>Santa Ana, Illinois</p>
+                          </div>
+                        </div>                      
+                      </div>                  
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- feature item-4 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house4.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Cosmo's Villa</h5>
+                          <p class="card-text feature_text_price">$ 22.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person4.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Jenny Wilson</h5>
+                            <p>Preston Rd. Inglewood, Maine 98380</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+              
+            </div>
+
+
+            <!-- apartment -->
+            <div class="mix apartment">
+              <div class="row">
+
+                <!-- feature item-1 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house1.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Roselands Apartment</h5>
+                          <p class="card-text feature_text_price">$ 35.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person1.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Dianne Russell</h5>
+                            <p>Manchester, Kentucky</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+                <!-- feature item-2 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house2.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_blue"> <i class="fa-solid fa-home"></i> New Apartment</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Woodlandside Apartment</h5>
+                          <p class="card-text feature_text_price">$ 20.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person2.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Robert Fox</h5>
+                            <p>Dr. San Jose, South Dakota</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+                <!-- feature item-3 -->
+                <div class="col-xl-3 col-lg-4 col-md-6"> 
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house3.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_green"> <i class="fa-solid fa-wallet"></i> Best Deals</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">The Old Apartment</h5>
+                          <p class="card-text feature_text_price">$ 44.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person3.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Ronald Richards</h5>
+                            <p>Santa Ana, Illinois</p>
+                          </div>
+                        </div>                      
+                      </div>                  
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- feature item-4 -->
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  
+                  <div class="feature_item">
+                    <div class="card border-0">
+    
+                      <div class="feature_img_container position-relative">
+                        <img src="images/feature_images/house4.png" class="card-img-top" alt="Feature House image of Hounter">
+                        <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
+                      </div>
+    
+                      <div class="card-body">
+    
+                        <div class="feature_text_container">
+                          <h5 class="card-title feature_text_title">Cosmo's Apartment</h5>
+                          <p class="card-text feature_text_price">$ 22.000.000</p>
+                        </div>
+    
+                        <div class="feature_person_container d-flex align-items-center ">
+                          <div class="feature_person_img">
+                            <img src="images/feature_images/person4.png" class="w-100" alt="Feature person image of Hounter">
+                          </div>
+                          <div class="feature_person_text">
+                            <h5>Jenny Wilson</h5>
+                            <p>Preston Rd. Inglewood, Maine 98380</p>
+                          </div>
+    
+                        </div>
+                          
+                      </div>
+                      
+                    </div>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+              
+            </div>
+           
           </div>
         
-          <div class="row">
-
-            <!-- feature item-1 -->
-            <div class="col-xl-3 col-lg-4 col-md-6"> 
-              <div class="feature_item">
-                <div class="card border-0">
-
-                  <div class="feature_img_container position-relative">
-                    <img src="images/feature_images/house1.png" class="card-img-top" alt="Feature House image of Hounter">
-                    <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
-                  </div>
-
-                  <div class="card-body">
-
-                    <div class="feature_text_container">
-                      <h5 class="card-title feature_text_title">Roselands House</h5>
-                      <p class="card-text feature_text_price">$ 35.000.000</p>
-                    </div>
-
-                    <div class="feature_person_container d-flex align-items-center ">
-                      <div class="feature_person_img">
-                        <img src="images/feature_images/person1.png" class="w-100" alt="Feature person image of Hounter">
-                      </div>
-                      <div class="feature_person_text">
-                        <h5>Dianne Russell</h5>
-                        <p>Manchester, Kentucky</p>
-                      </div>
-
-                    </div>
-                      
-                  </div>
-                  
-                </div>
-
-              </div>
-
-            </div>
-
-            <!-- feature item-2 -->
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              
-              <div class="feature_item">
-                <div class="card border-0">
-
-                  <div class="feature_img_container position-relative">
-                    <img src="images/feature_images/house2.png" class="card-img-top" alt="Feature House image of Hounter">
-                    <span class="badge rounded-pill feature_img_badge feature_img_badge_blue"> <i class="fa-solid fa-home"></i> New house</span>
-                  </div>
-
-                  <div class="card-body">
-
-                    <div class="feature_text_container">
-                      <h5 class="card-title feature_text_title">Woodlandside</h5>
-                      <p class="card-text feature_text_price">$ 20.000.000</p>
-                    </div>
-
-                    <div class="feature_person_container d-flex align-items-center ">
-                      <div class="feature_person_img">
-                        <img src="images/feature_images/person2.png" class="w-100" alt="Feature person image of Hounter">
-                      </div>
-                      <div class="feature_person_text">
-                        <h5>Robert Fox</h5>
-                        <p>Dr. San Jose, South Dakota</p>
-                      </div>
-
-                    </div>
-                      
-                  </div>
-                  
-                </div>
-
-              </div>
-
-            </div>
-            <!-- feature item-3 -->
-            <div class="col-xl-3 col-lg-4 col-md-6"> 
-              <div class="feature_item">
-                <div class="card border-0">
-
-                  <div class="feature_img_container position-relative">
-                    <img src="images/feature_images/house3.png" class="card-img-top" alt="Feature House image of Hounter">
-                    <span class="badge rounded-pill feature_img_badge feature_img_badge_green"> <i class="fa-solid fa-wallet"></i> Best Deals</span>
-                  </div>
-
-                  <div class="card-body">
-
-                    <div class="feature_text_container">
-                      <h5 class="card-title feature_text_title">The Old Lighthouse</h5>
-                      <p class="card-text feature_text_price">$ 44.000.000</p>
-                    </div>
-
-                    <div class="feature_person_container d-flex align-items-center ">
-                      <div class="feature_person_img">
-                        <img src="images/feature_images/person3.png" class="w-100" alt="Feature person image of Hounter">
-                      </div>
-                      <div class="feature_person_text">
-                        <h5>Ronald Richards</h5>
-                        <p>Santa Ana, Illinois</p>
-                      </div>
-                    </div>                      
-                  </div>                  
-                </div>
-              </div>
-            </div>
-
-            <!-- feature item-4 -->
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              
-              <div class="feature_item">
-                <div class="card border-0">
-
-                  <div class="feature_img_container position-relative">
-                    <img src="images/feature_images/house4.png" class="card-img-top" alt="Feature House image of Hounter">
-                    <span class="badge rounded-pill feature_img_badge feature_img_badge_red"> <i class="fa-solid fa-fire"></i> Popular</span>
-                  </div>
-
-                  <div class="card-body">
-
-                    <div class="feature_text_container">
-                      <h5 class="card-title feature_text_title">Cosmo's House</h5>
-                      <p class="card-text feature_text_price">$ 22.000.000</p>
-                    </div>
-
-                    <div class="feature_person_container d-flex align-items-center ">
-                      <div class="feature_person_img">
-                        <img src="images/feature_images/person4.png" class="w-100" alt="Feature person image of Hounter">
-                      </div>
-                      <div class="feature_person_text">
-                        <h5>Jenny Wilson</h5>
-                        <p>Preston Rd. Inglewood, Maine 98380</p>
-                      </div>
-
-                    </div>
-                      
-                  </div>
-                  
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
+          
           
           
        
@@ -892,6 +1213,7 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jQuery.js"></script>
+    <script src="js/mixitup.min.js"></script>
     
 
     <!-- jQuery UI js cdn -->
