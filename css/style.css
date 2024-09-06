@@ -195,14 +195,14 @@ body{
     width: 90%; 
 }
 .banner_slider_content_big{
-    
+    width: 280px;
     height: 100px;
     background-color: white;
     border-radius: 30px;
     padding: 24px;  
 }
 .banner_slider_content_small{
-
+    width: 210px; 
     height: 100px;
     background-color: white;
     border-radius: 30px;

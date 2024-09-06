@@ -1,10 +1,17 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     
-    .nav_item_btn{
+   /* navbar start */
+   .nav_item_btn {
         display: inline-block;
-        margin: 10px !important;
+        background-color: #10B981;
+        padding: 6px 15px !important;
+        margin: 8px !important;
     }
+    .nav_item_btn_big {
+        padding: 14px 24px !important;
+    }
+    /* navbar end */
 
      /* banner start */
      .red_angle {
@@ -25,16 +32,62 @@
         right: 45px;
         bottom: 89px;
     }
+    .banner_text {
+        margin-top: 115px;
+        text-align: center;
+    }
+    .banner_text_heading h1 {
+        font-size: 27px;
+    }
+    .banner_text_heading p {
+        margin-top: 25px;
+        margin-bottom: 40px !important;
+    }
+    #search_input {
+        font-size: 10px;
+        padding: 10px 35px;
+    }
+    .search_location_icon {
+        top: 10px;
+        left: 10px !important;
+    }
+    .search_btn {
+        right: 0;
+        padding: 5px 8px;
+    }
+    .banner_text_partner p {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .banner_text_partner_images{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .banner_text_partner_images img{
+        width: 56px;
+    }
+    .banner_slider {
+        left: 16px !important;
+        width: 95%;
+    }
     /* banner end */
 
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .nav_item_btn{
+    /* navbar start */
+    .nav_item_btn {
         display: inline-block;
-        margin: 12px !important;
+        background-color: #10B981;
+        padding: 6px 15px !important;
+        margin: 8px !important;
     }
+    .nav_item_btn_big {
+        padding: 14px 24px !important;
+    }
+    /* navbar end */
 
     /* banner start */
     .red_angle {
@@ -55,16 +108,62 @@
         right: 77px;
         bottom: 170px;
     }
+    .banner_text {
+        margin-top: 115px;
+        text-align: center;
+    }
+    .banner_text_heading h1 {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+        font-size: 36px;
+    }
+    .banner_text_heading p {
+        margin-top: 25px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 40px !important;
+    }
+    .search_input_container{
+        width: 80%;
+        margin: auto;
+    }
+    .search_location_icon {
+        left: 71px !important;
+    }
+    .search_btn {
+        right: 50px;
+    }
+    .banner_text_partner p {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .banner_text_partner_images{
+        width: 75%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .banner_slider {
+        left: 26px !important;
+        width: 95%;
+    }
     /* banner end */
 
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .nav_item_btn{
+
+    /* navbar start */
+    .nav_item_btn {
         display: inline-block;
-        margin: 16px !important;
+        background-color: #10B981;
+        padding: 8px 18px !important;
+        margin: 13px !important;
     }
+    .nav_item_btn_big {
+        padding: 14px 25px !important;
+    }
+    /* navbar end */
 
     /* banner start */
     .red_angle {
@@ -81,7 +180,44 @@
         right: 106px;
         bottom: 229px;
     }
+    .banner_text {
+        text-align: center;
+    }
+    .banner_text_heading h1 {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .banner_text_heading p {
+        margin-top: 25px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 40px !important;
+    }
+    .search_input_container{
+        width: 80%;
+        margin: auto;
+    }
+    .search_location_icon {
+        left: 90px;
+    }
+    .search_btn {
+        right: 71px;
+    }
+    .banner_text_partner p {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .banner_text_partner_images{
+        width: 50%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .banner_slider {
+        left: 70px;
+    }
     /* banner end */
+
+    
 
 }
 
@@ -89,35 +225,82 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     /* banner start */
     .red_angle {
-        width: 55px;
-        height: 70px;
-        left: 52px;
-        top: 88px;
+        left: 62px;
+        top: 102px;
     }
     .yellow_angle {
-        width: 30px;
         height: 65px;
-        right: 78px;
-        top: 134px;
+        right: 93px;
+        top: 154px;
     }
     .blue_angle {
-        width: 30px;
         height: 55px;
-        right: 70px;
-        bottom: 144px;
+        right: 80px;
+        bottom: 182px;
+    }
+    .banner_slider {
+        left: 27px;
+        width: 95%;
+    }
+    .banner_text_heading h1 {
+        font-size: 33px;
+        padding-right: 0px;
+    }
+    #search_input {
+        font-size: 11px;
+    }
+    .search_btn {
+        top: 2px;
+        padding: 5px 15px;
+    }
+    .banner_text_partner p {
+        margin-bottom: 0;
+    }
+    .banner_text_partner p {
+        margin-top: 50px;
+    }
+    .banner_text_partner_images{
+        width: 80%;
+  
     }
     /* banner end */
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) { 
-
-
- }
+   
+    /* banner part start */
+    .banner_text_heading h1 {
+        padding-right: 0px;
+    }
+    /* banner part end */
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
+    /* banner start */
+    .red_angle {
+        left: 82px;
+        top: 144px;
+    }
+    .yellow_angle {
+        right: 128px;
+        top: 214px;
+    }
+    .blue_angle {
+        right: 114px;
+        bottom: 248px;
+    }
+    .banner_slider {
+        left: 75px;
+    }
+    .banner_text_partner p {
+        margin-top: 50px;
+    }
+    .banner_text_partner_images{
+        width: 80%;
+  
+    }
+    /* banner end */
 
 
  }
