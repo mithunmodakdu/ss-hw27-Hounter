@@ -101,7 +101,7 @@ body{
     z-index: 1;
 }
 .banner_text{
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .banner_text_heading h1{
     font-size: 40px;
@@ -296,6 +296,11 @@ body{
     color: #047857 !important;
     background-color: #D1FAE5 !important;
     border: 0 !important;
+}
+.mix{
+    display: inline-block;
+    margin: 15px;
+    width: 22%;
 }
 /* feature end */
 

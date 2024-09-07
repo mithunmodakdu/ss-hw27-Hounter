@@ -73,6 +73,17 @@
     }
     /* banner end */
 
+    /* feature part start */
+    .mix{
+        width: 95%;
+        margin: 15px;
+    }
+    .mixit_item_btn {
+        margin-right: 8px;
+        padding: 8px 11px !important;
+    }
+    /* feature part end */
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -148,6 +159,13 @@
     }
     /* banner end */
 
+    /* feature part start */
+    .mix{
+        width: 80%;
+        margin: 25px
+    }
+    /* feature part end */
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -217,6 +235,13 @@
     }
     /* banner end */
 
+    /* feature part start */
+    .mix{
+        width: 45%;
+        margin: 15px;
+    }
+    /* feature part end */
+
     
 
 }
@@ -264,6 +289,13 @@
   
     }
     /* banner end */
+
+     /* feature part start */
+    .mix{
+        width: 30%;
+        margin: 10px;
+    }
+    /* feature part end */
 
 }
 
