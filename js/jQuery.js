@@ -47,29 +47,51 @@ $(function(){
     // review slider start
     $('.center').slick({
       centerMode: true,
-      centerPadding: '300px 200px ',
+      centerPadding: '25% 20%',
       slidesToShow: 1,
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 2000,
+      arrows: false,
       responsive: [
+        
+        
         {
-          breakpoint: 768,
+          breakpoint: 1199.98,      //maximum limit
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
+            centerPadding: '20% 20%',
+            slidesToShow: 1,
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 991.98,       //maximum limit
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '40px',
+            centerPadding: '15% 20%',
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 767.98,      //maximum limit
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '10% 20%',
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 575.98,      //maximum limit
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '5% 20%',
             slidesToShow: 1
           }
         }
+        
       ]
     });
     // review slider end

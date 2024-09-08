@@ -216,6 +216,13 @@
      }
      /* ready part end */
 
+     /* review start */
+     .review_item_overlay {
+        height: 300px;
+        padding: 20px;
+    }
+    /* review start */
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -307,6 +314,13 @@
     }
     /* ready part end */
 
+    /* review part start */
+    .review_item_overlay {
+        height: 260px;
+    }
+    
+    /* review part end */
+
     
 
 }
@@ -370,6 +384,18 @@
     }
     /* feature part end */
 
+    
+     /* review part start */
+     .review_item_overlay {
+        padding: 25px;
+    }
+    
+       
+    
+    /* review part end */
+
+   
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -379,6 +405,13 @@
         padding-right: 0px;
     }
     /* banner part end */
+
+     /* review part start */
+     .review_item_overlay {
+        height: 240px;
+    }
+    
+    /* review part end */
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
@@ -406,6 +439,11 @@
   
     }
     /* banner end */
+
+    /* review part start */
+   
+    
+    /* review part end */
 
 
  }

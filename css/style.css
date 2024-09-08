@@ -346,7 +346,7 @@ body{
 }
 .review_item_overlay{
     width: 80%;
-    height: 60%;
+    height: 200px;
     background-color: white;
     left: 10%;
     top: 65%;
@@ -363,7 +363,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: #626687;
-    margin: 16px 0 24px;
+    margin: 8px 0 16px;
 }
 .star_color{
     color: #F59E0B;
@@ -372,7 +372,6 @@ body{
     font-size: 20px;
     font-weight: 600;
     color: #3C4563;
-    margin-left: 240px;
     margin-top: 10px;
 
 }
