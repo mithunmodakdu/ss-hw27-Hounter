@@ -358,6 +358,42 @@
     }
     /* article end */
 
+    /* subscribe start */
+    .subscribe_overlay {
+        height: 125px;
+        left: 35px;
+        top: 26px;
+    }
+    .subscribe_text_heading h1 {
+        font-size: 16px;
+    }
+    .subscribe_img1{
+        width: 40px;
+        top: 24px;
+    }
+    .subscribe_img4{
+        width: 40px;
+    }
+    .subscribe_img2{
+        width: 30px;
+    }
+    .subscribe_img3{
+        width: 30px; 
+    }
+    .subscribe_btn {
+        padding: 5px 7px;
+        font-size: 10px;
+    }
+    #subscribe_input {
+        font-size: 10px;
+        padding: 6px 55px;
+    }
+    .subscribe_email_icon {
+        top: 11px;
+        font-size: 10px;
+    }
+    /* subscribe end */
+
     
 
 }
@@ -429,10 +465,18 @@
      .review_item_overlay {
         padding: 25px;
     }
-    
-       
-    
+
     /* review part end */
+
+
+    /* subscribe start */
+    .subscribe_overlay {
+        top: 0px;
+    }
+    .subscribe_text_heading h1 {
+        font-size: 24px;
+    }
+    /* subscribe end */
 
    
 
