@@ -346,7 +346,7 @@ body{
 }
 .review_item_overlay{
     width: 80%;
-    height: 200px;
+    /* height: 200px; */
     background-color: white;
     left: 10%;
     top: 65%;

@@ -69,7 +69,7 @@ $(function(){
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '15% 20%',
+            centerPadding: '15% 30%',
             slidesToShow: 1,
           }
         },
@@ -78,7 +78,7 @@ $(function(){
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '10% 20%',
+            centerPadding: '5% 35%',
             slidesToShow: 1
           }
         },
@@ -87,7 +87,7 @@ $(function(){
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '5% 20%',
+            centerPadding: '0% 140%',
             slidesToShow: 1
           }
         }

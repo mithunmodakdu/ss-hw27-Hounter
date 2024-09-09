@@ -5,6 +5,9 @@
     .section_title {
         font-size: 24px;
     }
+    .section_title_center {
+        padding: 0 30px;
+    }
     /* common end */
     
    /* navbar start */
@@ -118,6 +121,23 @@
     }
     /* ready end */
 
+    /* review start */
+    .review_person_container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .review_person_img_text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .review_item_overlay {
+        height: 380px !important;
+        padding: 15px;
+    }
+    /* review end */
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -126,6 +146,9 @@
     /* common start */
     .section_title {
         font-size: 28px;
+    }
+    .section_title_center {
+        padding: 0 50px;
     }
     /* common end */
 
@@ -218,9 +241,9 @@
 
      /* review start */
      .review_item_overlay {
-        height: 300px;
-        padding: 20px;
+        padding: 16px;
     }
+  
     /* review start */
 
  }
@@ -316,7 +339,7 @@
 
     /* review part start */
     .review_item_overlay {
-        height: 260px;
+        padding: 20px;
     }
     
     /* review part end */
@@ -408,7 +431,7 @@
 
      /* review part start */
      .review_item_overlay {
-        height: 240px;
+        height: 250px;
     }
     
     /* review part end */
