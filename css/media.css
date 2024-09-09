@@ -138,6 +138,61 @@
     }
     /* review end */
 
+      /* subscribe start */
+      .subscribe {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+      .subscribe_bg_img img{
+        height: 500px;
+        border-radius: 35px;
+     }
+     .subscribe_overlay {
+        width: 300px;
+        height: 550px;
+        left: 0;
+        top: 0; 
+    }
+    .subscribe_images_container {
+        width: 40%;
+        height: 100px;
+        margin: auto;
+    }
+    .subscribe_text {
+        width: 80%;
+        margin: auto;
+        padding: 100px 0 20px;
+    }
+    .subscribe_text_heading h1 {
+        font-size: 16px;
+    }
+    .subscribe_img1{
+        width: 40px;
+        top: 24px;
+    }
+    .subscribe_img4{
+        width: 40px;
+    }
+    .subscribe_img2{
+        width: 30px;
+    }
+    .subscribe_img3{
+        width: 30px; 
+    }
+    .subscribe_btn {
+        padding: 5px 7px;
+        font-size: 10px;
+    }
+    #subscribe_input {
+        font-size: 10px;
+        padding: 6px 55px;
+    }
+    .subscribe_email_icon {
+        top: 11px;
+        font-size: 10px;
+    }
+    /* subscribe end */
+
    
 
  }
@@ -247,6 +302,61 @@
     }
   
     /* review start */
+
+     /* subscribe start */
+     .subscribe {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+     .subscribe_bg_img img{
+        height: 500px;
+        border-radius: 35px;
+     }
+     .subscribe_overlay {
+        height: 495px;
+        left: 0;
+        top: 0;
+        width: 540px;
+    }
+    .subscribe_images_container {
+        width: 40%;
+        height: 100px;
+        margin: auto;
+    }
+    .subscribe_text {
+        width: 50%;
+        margin: auto;
+        padding: 100px 0 20px;
+    }
+    .subscribe_text_heading h1 {
+        font-size: 16px;
+    }
+    .subscribe_img1{
+        width: 40px;
+        top: 24px;
+    }
+    .subscribe_img4{
+        width: 40px;
+    }
+    .subscribe_img2{
+        width: 30px;
+    }
+    .subscribe_img3{
+        width: 30px; 
+    }
+    .subscribe_btn {
+        padding: 5px 7px;
+        font-size: 10px;
+    }
+    #subscribe_input {
+        font-size: 10px;
+        padding: 6px 55px;
+    }
+    .subscribe_email_icon {
+        top: 11px;
+        font-size: 10px;
+    }
+    /* subscribe end */
 
     
 
@@ -359,6 +469,10 @@
     /* article end */
 
     /* subscribe start */
+    .subscribe {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
     .subscribe_overlay {
         height: 125px;
         left: 35px;
@@ -470,6 +584,10 @@
 
 
     /* subscribe start */
+    .subscribe {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
     .subscribe_overlay {
         top: 0px;
     }
