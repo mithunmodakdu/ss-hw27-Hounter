@@ -6,7 +6,7 @@
         font-size: 24px;
     }
     .section_title_center {
-        padding: 0 30px;
+        padding: 0 10px !important;
     }
     /* common end */
     
@@ -138,6 +138,8 @@
     }
     /* review end */
 
+   
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -246,6 +248,8 @@
   
     /* review start */
 
+    
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -344,6 +348,16 @@
     
     /* review part end */
 
+    /* article start */
+    .article_item_container {
+        margin: auto;
+        padding: 20px;
+    }
+    .big_article_container{
+        margin-top: 50px;
+    }
+    /* article end */
+
     
 
 }
@@ -354,6 +368,9 @@
     /* common start */
     .section_title {
         font-size: 30px;
+    }
+    .section_title_center {
+        padding: 0 30px !important;
     }
     /* common end */
 
@@ -422,6 +439,12 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
+
+    /* common start */
+    .section_title_center {
+        padding: 0 60px;
+    }
+    /* common end */
    
     /* banner part start */
     .banner_text_heading h1 {
